@@ -1,5 +1,5 @@
-/* funzione per caricare javascript dopo l'html e il CSS */
-$(document).ready(function(){
+ /* funzione per caricare javascript dopo l'html e il CSS */
+ $(document).ready(function(){
     //Creare un array di oggetti
     //Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
     const catalogo = [
@@ -32,12 +32,7 @@ $(document).ready(function(){
     <h3>nome: ${nome} </h3>
     <h4>peso: ${peso} kg </h4>
     <div/>`    
-    )
+    )   
+    })
+     
 
-    
-   
-   
-   
-   
-   
-    }) 
